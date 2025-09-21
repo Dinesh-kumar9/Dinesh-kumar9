@@ -3,9 +3,9 @@
 
 - 🔭 I’m currently working on **Database Management**
 
-- 🌱 I’m currently learning **B.Tech 2 nd year in Data Science**
+- 🌱 I’m currently learning **B.Tech 3rd year in Data Science**
 
-- 📫 How to reach me **dineshkumaryours867@gmail.com**
+- 📫 How to reach me **dineshkumarpathipati@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
