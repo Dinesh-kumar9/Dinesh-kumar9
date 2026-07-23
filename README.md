@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **Database Management**
 
-- 🌱 I’m currently learning **B.Tech 3rd year in Data Science**
+- 🌱 I’m currently learning **B.Tech Final year in Data Science**
 
 - 📫 How to reach me **dineshkumarpathipati@gmail.com**
 
