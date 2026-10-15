@@ -1,30 +1,43 @@
-<h1 align="center">Hi 👋, I'm Dinesh Kumar</h1>
-<h3 align="center">A passionate student exploring Data Science</h3>
+<h1 align="center">Hi, I'm Dinesh Kumar Pathipati 👋</h1>
+<h3 align="center">AI / ML Engineer — I train models and ship them to production</h3>
 
-- 🔭 I’m currently working on **Database Management**
-
-- 🌱 I’m currently learning **B.Tech Final year in Data Science**
-
-- 📫 How to reach me **dineshkumarpathipati@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
+<p align="center">
+  <a href="https://portfolio-one-flame-92.vercel.app"><img src="https://img.shields.io/badge/Portfolio-6c63ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://portfolio-one-flame-92.vercel.app/Dinesh_Kumar_Resume.pdf"><img src="https://img.shields.io/badge/Resume-00b894?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume"/></a>
+  <a href="https://www.linkedin.com/in/dinesh-kumar-pathipati"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:dineshkumarpathipati@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+Final-year B.Tech Data Science student (CGPA 8.52) at RGMCET, Nandyal. I build the whole path from a trained model to something people actually use: training, serving, cloud deployment, and monitoring.
 
-<!--
-**Dinesh-kumar9/Dinesh-kumar9** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🎯 **Open to AI Engineer and ML Engineer roles** (graduating 2027)
+- 📄 Published computer-vision research in IJMRT, 3rd place at an international student conference
+- 🚀 Deployed a serverless AWS platform used by ~5,000 students across campus
+- ☁️ AWS Certified AI Practitioner
 
-Here are some ideas to get you started:
+## 🔨 Featured Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| Project | What it is | Stack |
+|---|---|---|
+| 🌾 **[Crop Disease Identification](https://github.com/Dinesh-kumar9/crop-disease-prediction)** · [demo](https://crop-disease-identification.onrender.com/) | MobileNetV2 transfer learning, **~90% accuracy** across 10+ disease classes, with weather-based risk analysis and English/Telugu advice. Published research. | TensorFlow, Keras, Flask, MongoDB |
+| 🧭 **[MLOps Observability Platform](https://github.com/Dinesh-kumar9/Drift_Detection)** | Detects data drift at three pipeline stages (KS test, ADWIN) and ranks **which stage caused it**. Model registry, gated retraining, Slack alerts. | FastAPI, Celery, Redis, XGBoost, Docker, Terraform |
+| 🎯 **[Reel Intelligence](https://github.com/Dinesh-kumar9/Hack2skill_Challenge)** · [demo](https://reel-intelligence-omega.vercel.app) | Gemini-powered agent that recommends educational content from Reel watch history. **3rd place at PromptWars** (92.78/100, 600+ competitors). | Node.js, Gemini API, Vercel |
+| 🏫 **RGMCET Eduflow** · [demo](https://d1r0k8fn16z5du.cloudfront.net/) | Serverless campus platform used by **~5,000 students** and 30–40 faculty. | AWS Lambda, API Gateway, RDS, Cognito, CloudFront |
+| ⏱️ **[Smart Queue](https://github.com/Dinesh-kumar9/smrtqueue)** · [demo](https://smrtqueue.vercel.app/) | Real-time virtual queue with priority scheduling and wait-time estimation for 50+ concurrent users. | Flask, MongoDB, REST APIs |
+
+## 🧰 Tech Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=py,java,c,tensorflow,sklearn,fastapi,flask,nodejs,react,ts,mongodb,postgres,mysql,redis,docker,aws,terraform,githubactions,git,linux&perline=10" alt="Tech stack"/>
+</p>
+
+**ML / DL:** TensorFlow · Keras · Scikit-learn · XGBoost · CNNs · Transfer Learning · Computer Vision<br>
+**MLOps & GenAI:** Drift detection (KS, ADWIN) · Model registry · Celery · Docker · GitHub Actions · Terraform · Gemini API · Prompt engineering<br>
+**Cloud (AWS):** Lambda · API Gateway · RDS + RDS Proxy · S3 · CloudFront · Cognito · VPC · IAM
+
+## 🏆 Achievements
+
+- 🥉 **3rd Place, PromptWars (Hack2Skill)**: 92.78/100 among 600+ students
+- 🥉 **3rd Place, Students International Conference 2026**, JAIN University, Bengaluru (research paper)
+- 🏆 **1st Place in 3 hackathons** run by technical clubs at RGMCET
+- 📜 AWS Certified AI Practitioner · DataCamp Associate Data Analyst · AWS Academy Cloud Foundations & Cloud Architecting
