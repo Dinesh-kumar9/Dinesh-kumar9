@@ -1,43 +1,41 @@
-<h1 align="center">Hi, I'm Dinesh Kumar Pathipati 👋</h1>
-<h3 align="center">AI / ML Engineer — I train models and ship them to production</h3>
+<a href="https://portfolio-one-flame-92.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+    <img src="assets/banner-light.png" width="100%" alt="Dinesh Kumar Pathipati, AI / ML Engineer. Machine learning that works in the field, not just in the lab. 95.1% accuracy on field photos with a 14 MB model; about 5,000 students on my AWS platform; 3rd of 600+ at PromptWars; published in IJMRT.">
+  </picture>
+</a>
 
-<p align="center">
-  <a href="https://portfolio-one-flame-92.vercel.app"><img src="https://img.shields.io/badge/Portfolio-6c63ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://portfolio-one-flame-92.vercel.app/Dinesh_Kumar_Resume.pdf"><img src="https://img.shields.io/badge/Resume-00b894?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume"/></a>
-  <a href="https://www.linkedin.com/in/dinesh-kumar-pathipati"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:dineshkumarpathipati@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-</p>
+Final-year Data Science student at RGMCET, open to **AI Engineer** and **ML Engineer** roles (graduating 2027). I like the part of machine learning that happens after the notebook: evaluating on realistic data, serving inside latency and quota budgets, and noticing when production drifts away from the training set.
 
-Final-year B.Tech Data Science student (CGPA 8.52) at RGMCET, Nandyal. I build the whole path from a trained model to something people actually use: training, serving, cloud deployment, and monitoring.
+**[Portfolio](https://portfolio-one-flame-92.vercel.app)** · **[Résumé](https://portfolio-one-flame-92.vercel.app/Dinesh_Kumar_Resume.pdf)** · **[LinkedIn](https://www.linkedin.com/in/dinesh-kumar-pathipati)** · **[Email](mailto:dineshkumarpathipati@gmail.com)**
 
-- 🎯 **Open to AI Engineer and ML Engineer roles** (graduating 2027)
-- 📄 Published computer-vision research in IJMRT, 3rd place at an international student conference
-- 🚀 Deployed a serverless AWS platform used by ~5,000 students across campus
-- ☁️ AWS Certified AI Practitioner
+### Selected work
 
-## 🔨 Featured Projects
+**[Crop disease detection that holds up on field photos](https://github.com/Dinesh-kumar9/crop-disease-prediction)** · [live demo](https://crop-disease-identification.onrender.com/)<br>
+MobileNetV2 transfer learning reaching **95.1% accuracy and 0.95 weighted F1** on field-condition banana leaves (BananaLSD), from a **14 MB** model. A Flask pipeline adds weather-aware field scheduling, yield-loss estimates in ₹, and spoken advice in 10 languages. Published in IJMRT; 3rd place at an international student conference.<br>
+<sub>TensorFlow · Keras · Flask · OpenWeatherMap</sub>
 
-| Project | What it is | Stack |
-|---|---|---|
-| 🌾 **[Crop Disease Identification](https://github.com/Dinesh-kumar9/crop-disease-prediction)** · [demo](https://crop-disease-identification.onrender.com/) | MobileNetV2 transfer learning, **~90% accuracy** across 10+ disease classes, with weather-based risk analysis and English/Telugu advice. Published research. | TensorFlow, Keras, Flask, MongoDB |
-| 🧭 **[MLOps Observability Platform](https://github.com/Dinesh-kumar9/Drift_Detection)** | Detects data drift at three pipeline stages (KS test, ADWIN) and ranks **which stage caused it**. Model registry, gated retraining, Slack alerts. | FastAPI, Celery, Redis, XGBoost, Docker, Terraform |
-| 🎯 **[Reel Intelligence](https://github.com/Dinesh-kumar9/Hack2skill_Challenge)** · [demo](https://reel-intelligence-omega.vercel.app) | Gemini-powered agent that recommends educational content from Reel watch history. **3rd place at PromptWars** (92.78/100, 600+ competitors). | Node.js, Gemini API, Vercel |
-| 🏫 **RGMCET Eduflow** · [demo](https://d1r0k8fn16z5du.cloudfront.net/) | Serverless campus platform used by **~5,000 students** and 30–40 faculty. | AWS Lambda, API Gateway, RDS, Cognito, CloudFront |
-| ⏱️ **[Smart Queue](https://github.com/Dinesh-kumar9/smrtqueue)** · [demo](https://smrtqueue.vercel.app/) | Real-time virtual queue with priority scheduling and wait-time estimation for 50+ concurrent users. | Flask, MongoDB, REST APIs |
+**[Reel Intelligence: an LLM agent that reads intent, not keywords](https://github.com/Dinesh-kumar9/Hack2skill_Challenge)** · [live demo](https://reel-intelligence-omega.vercel.app)<br>
+Infers a student’s real interests from their Reel history and recommends hype-free learning content. I collapsed 10 Gemini calls into **1 structured call** (90% less quota, inside Vercel’s 60 s limit), with API-key failover on 429/503 and 21 tests in CI. **3rd of 600+ at PromptWars** (92.78 / 100).<br>
+<sub>Node.js · Gemini API · Vercel · GitHub Actions</sub>
 
-## 🧰 Tech Stack
+**RGMCET Eduflow** · [live site](https://d1r0k8fn16z5du.cloudfront.net/)<br>
+A class project taken to production: a serverless AWS platform now used by **~5,000 students** and 30–40 faculty. CloudFront and S3, Cognito sign-in, API Gateway → Lambda inside a VPC, and RDS Proxy → PostgreSQL.<br>
+<sub>AWS · Prisma</sub>
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=py,java,c,tensorflow,sklearn,fastapi,flask,nodejs,react,ts,mongodb,postgres,mysql,redis,docker,aws,terraform,githubactions,git,linux&perline=10" alt="Tech stack"/>
-</p>
+**[MLOps observability platform](https://github.com/Dinesh-kumar9/Drift_Detection)** · *in progress*<br>
+Goal: say *which* pipeline stage caused drift, not just that drift happened. Phase 1 is shipped: schema-checked ingestion with baseline statistics, parallel Random Forest / XGBoost / Logistic Regression training on Celery, a staging → production registry, and a serving API that logs every prediction (52 unit tests). Next: KS and ADWIN stage monitors with root-cause attribution.<br>
+<sub>FastAPI · Celery · Redis · PostgreSQL · XGBoost · Docker · Terraform</sub>
 
-**ML / DL:** TensorFlow · Keras · Scikit-learn · XGBoost · CNNs · Transfer Learning · Computer Vision<br>
-**MLOps & GenAI:** Drift detection (KS, ADWIN) · Model registry · Celery · Docker · GitHub Actions · Terraform · Gemini API · Prompt engineering<br>
-**Cloud (AWS):** Lambda · API Gateway · RDS + RDS Proxy · S3 · CloudFront · Cognito · VPC · IAM
+**[Smart Queue](https://github.com/Dinesh-kumar9/smrtqueue)** · [live demo](https://smrtqueue.vercel.app/)<br>
+A real-time queue with priority ordering and a wait-time model that retrains itself after every 3 people served.<br>
+<sub>Flask · Socket.IO · Supabase · scikit-learn</sub>
 
-## 🏆 Achievements
+### Toolkit
 
-- 🥉 **3rd Place, PromptWars (Hack2Skill)**: 92.78/100 among 600+ students
-- 🥉 **3rd Place, Students International Conference 2026**, JAIN University, Bengaluru (research paper)
-- 🏆 **1st Place in 3 hackathons** run by technical clubs at RGMCET
-- 📜 AWS Certified AI Practitioner · DataCamp Associate Data Analyst · AWS Academy Cloud Foundations & Cloud Architecting
+**Modeling** · TensorFlow, Keras, scikit-learn, XGBoost, NumPy<br>
+**LLM apps** · Gemini API, structured outputs, prompt design<br>
+**Serving** · FastAPI, Flask, Celery, Redis<br>
+**Cloud** · AWS (Lambda, API Gateway, RDS, S3, CloudFront, Cognito, VPC, IAM), Docker, Terraform, GitHub Actions
+
+<sub>AWS Certified AI Practitioner · DataCamp Associate Data Analyst · 1st place in 3 RGMCET hackathons</sub>
